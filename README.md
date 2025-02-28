@@ -17,42 +17,42 @@ Automated radiology report generation is a significant advancement in medical im
 
 📁 Comparative analysis of medical pseudo-report generation using LLM and external knowledge bases/  
 │  
-├── 📂 data/                          # Dataset & External Knowledge  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 external_knowledge/        # 📚 External knowledge base     
-│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 Radiopedia.xlsx    	  # 🏥 Radiopedia file for structured triplet extraction  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 sample_chest_xrays_Images/        # 🖼️ Sample chest X-ray images for testing  
+├── 📂 data/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Dataset & External Knowledge  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 external_knowledge/        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📚 External knowledge base     
+│   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 Radiopedia.xlsx    	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🏥 Radiopedia file for structured triplet extraction  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 sample_chest_xrays_Images/        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🖼️ Sample chest X-ray images for testing  
 │   &nbsp;&nbsp;&nbsp;&nbsp;├── 📂 sample_free_text_radiology_reports/  # 📜 Sample free-text radiology reports  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 dataset_link.txt           # 🔗 Dataset link file for reference  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 dataset_link.txt           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🔗 Dataset link file for reference  
 │  
-├── 📂 documentation/                   # Project Documentation      
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 report.pdf                   # 📖 Detailed project report  
+├── 📂 documentation/                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Project Documentation      
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 report.pdf                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📖 Detailed project report  
 │  
-├── 📂 notebooks/                      # Jupyter Notebooks for experiments  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 Server_Part_1.ipynb         # 🧪 Data processing & feature extraction  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 Part_2.ipynb                # 📝 Report generation & evaluation  
+├── 📂 notebooks/                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Jupyter Notebooks for experiments  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 Server_Part_1.ipynb         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🧪 Data processing & feature extraction  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 Part_2.ipynb                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📝 Report generation & evaluation  
 │  
-├── 📂 output/                           # Outputs generated from the model  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 cleaned_generated_reports.txt #🧹 Cleaned version of generated reports  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 comparison_scores.csv         # 📊 Comparison scores for AI-generated reports using BERTScore and TF-IDF  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 evaluation_results.csv        # 📊 Evaluation results comparing AI-generated and ground truth reports  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 filtered_reports_with_ai.csv  # 🔍 Filtered dataset with AI-generated reports merged  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 generated_reports.txt         # 📝 Generated reports from AI model  
+├── 📂 output/                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Outputs generated from the model  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 cleaned_generated_reports.txt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#🧹 Cleaned version of generated reports  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 comparison_scores.csv         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📊 Comparison scores for AI-generated reports using BERTScore and TF-IDF  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 evaluation_results.csv        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📊 Evaluation results comparing AI-generated and ground truth reports  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 filtered_reports_with_ai.csv  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🔍 Filtered dataset with AI-generated reports merged  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📄 generated_reports.txt         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📝 Generated reports from AI model  
 │  
-├── 📂 scripts/                        # Codebase for processing, embedding, & training  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 clean_reports.py            # 🧹 Cleaning and preprocessing script for generated reports  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 dataset.py                  # 📊 Dataset processing script for loading and formatting data  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 embeddings.py               # 🧠 Embeddings generation script for text and image data  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 evaluation.py               # 📈 Evaluation script for assessing model performance  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 gcs_utils.py                # ☁️ Google Cloud Storage utilities for file handling  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 generate_report.py          # 📝 Report generation script using AI model  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 inference.py                # 🔍 Inference script for making predictions on new X-ray images  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 model.py                    # 🖥️ Model definition for multimodal report generation  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 train.py                    # 🎯 Model training script for supervised learning  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 triplets.py                 # 🔗 Triplet extraction script for knowledge integration  
-│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 utils.py                    # 🛠️ Utility functions for common operations across the project  
+├── 📂 scripts/                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Codebase for processing, embedding, & training  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 clean_reports.py            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🧹 Cleaning and preprocessing script for generated reports  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 dataset.py                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📊 Dataset processing script for loading and formatting data  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 embeddings.py               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🧠 Embeddings generation script for text and image data  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 evaluation.py               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📈 Evaluation script for assessing model performance  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 gcs_utils.py                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# ☁️ Google Cloud Storage utilities for file handling  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 generate_report.py          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📝 Report generation script using AI model  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 inference.py                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🔍 Inference script for making predictions on new X-ray images  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 model.py                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🖥️ Model definition for multimodal report generation  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 train.py                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🎯 Model training script for supervised learning  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 triplets.py                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🔗 Triplet extraction script for knowledge integration  
+│   &nbsp;&nbsp;&nbsp;&nbsp;├── 📝 utils.py                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 🛠️ Utility functions for common operations across the project  
 │  
-├── 📄 README.md                         # 📖 Project Overview  
-├── 📄 requirements.txt                  # 📦 Dependencies for running the project  
+├── 📄 README.md                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📖 Project Overview  
+├── 📄 requirements.txt                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 📦 Dependencies for running the project  
 
 ## 🚀 How to Run the Project
 ### 1️⃣ Clone the repository

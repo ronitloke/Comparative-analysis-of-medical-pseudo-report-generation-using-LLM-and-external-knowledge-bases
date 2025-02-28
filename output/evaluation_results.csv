@@ -1,0 +1,2 @@
+image_id,cleaned_report,AI_generated_report,BERTScore_Precision,BERTScore_Recall,BERTScore_F1,tfidf_score
+8000_0e82057a-5ba4dacb-c5333adf-de03650c-483b7078.dcm,"Acute liver injury and abdominal pain...","The lungs and cardiomediastinal silhouette are clear...",0.833115,0.858473,0.845604,0.298376

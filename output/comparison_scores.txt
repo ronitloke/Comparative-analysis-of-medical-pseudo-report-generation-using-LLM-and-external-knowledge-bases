@@ -1,0 +1,14 @@
+COMPARISON REPORT: GPT-4 vs GPT-4o
+
+Average scores for GPT-4 generated reports:
+BERTScore_Precision_4    0.831345
+BERTScore_Recall_4       0.827029
+BERTScore_F1_4           0.829072
+tfidf_score_4            0.276860
+dtype: float64
+
+Average scores for GPT-4o generated reports:
+BERTScore_Precision_4o    0.841910
+BERTScore_Recall_4o       0.821181
+BERTScore_F1_4o           0.831197
+tfidf_score_4o            0.218646
